@@ -14,6 +14,7 @@ import CustomPIXIComponentExample from "../CustomPIXIComponentExample";
 import LayersExample from "../LayersExample";
 import PointsExample from "../PointsExample/PointsExample";
 import Stats from "../Stats";
+import Daadi from "../Daadi"
 
 const examples = [
   {
@@ -50,6 +51,11 @@ const examples = [
     name: "Click",
     slug: "click",
     component: ClickExample,
+  },
+  {
+    name: "Daadi",
+    slug: "daadi",
+    component: Daadi,
   },
   {
     name: "CustomPIXIComponent",
